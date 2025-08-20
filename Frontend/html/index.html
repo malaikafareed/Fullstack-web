@@ -79,7 +79,113 @@
 <input type="radio" name="gander" id="" value="male">Male <br>
 <input type="radio" name="gander" id="" value="female">Female
 <br>
+<h2>checkbox</h2>
+<input type="checkbox" name="" id="">
 <!-- text area -->
  <textarea name="suggestion" id="101" placeholder="leave afeedback" rows="5">feedback</textarea>
+
+
+
+
+
+
+
+
+
+ <!-- ctrl + speacebar -->
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Forms Examples</title>
+</head>
+<body>
+
+  <h2>1. Basic Form Structure</h2>
+  <form action="/submit" method="post">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username">
+    <br><br>
+    <input type="submit" value="Submit">
+  </form>
+  <hr>
+
+  <h2>2. Text, Password, and Email Inputs</h2>
+  <form>
+    Name: <input type="text" name="name"><br><br>
+    Password: <input type="password" name="password"><br><br>
+    Email: <input type="email" name="email"><br><br>
+    <input type="submit" value="Login">
+  </form>
+  <hr>
+
+  <h2>3. Radio Buttons</h2>
+  <form>
+    Gender: <br>
+    <input type="radio" name="gender" value="male"> Male <br>
+    <input type="radio" name="gender" value="female"> Female <br>
+    <input type="radio" name="gender" value="other"> Other <br>
+  </form>
+  <hr>
+
+  <h2>4. Checkboxes</h2>
+  <form>
+    Select your hobbies: <br>
+    <input type="checkbox" name="hobby" value="reading"> Reading <br>
+    <input type="checkbox" name="hobby" value="sports"> Sports <br>
+    <input type="checkbox" name="hobby" value="music"> Music <br>
+  </form>
+  <hr>
+
+  <h2>5. Dropdown (Select)</h2>
+  <form>
+    Choose a country: 
+    <select name="country">
+      <option value="pakistan">Pakistan</option>
+      <option value="usa">USA</option>
+      <option value="uk">UK</option>
+      <option value="canada">Canada</option>
+    </select>
+  </form>
+  <hr>
+
+  <h2>6. Textarea</h2>
+  <form>
+    Write a message: <br>
+    <textarea name="message" rows="4" cols="30"></textarea>
+  </form>
+  <hr>
+
+  <h2>7. Number, Date, and Color Inputs</h2>
+  <form>
+    Age: <input type="number" name="age"><br><br>
+    Birthday: <input type="date" name="birthday"><br><br>
+    Favorite Color: <input type="color" name="favcolor"><br><br>
+  </form>
+  <hr>
+
+  <h2>8. File Upload</h2>
+  <form>
+    Upload a file: 
+    <input type="file" name="myfile">
+  </form>
+  <hr>
+
+  <h2>9. Hidden Input</h2>
+  <form>
+    <input type="hidden" name="userid" value="12345">
+    <input type="submit" value="Submit with Hidden Data">
+  </form>
+  <hr>
+
+  <h2>10. Buttons</h2>
+  <form>
+    <input type="button" value="Click Me">
+    <button type="submit">Submit Button</button>
+    <button type="reset">Reset Form</button>
+  </form>
+
+</body>
+</html>
 </body>
 </html>
